@@ -1,0 +1,15 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.button-arrow { 
+    @include button;
+    @include polygon;
+    @include default-polygon;
+    @include hover-red;
+    display: flex;
+    align-items: center;
+    max-width: 18.7rem;
+    img {
+        margin-left: $s16;
+    }
+}

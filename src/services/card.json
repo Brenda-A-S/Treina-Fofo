@@ -1,0 +1,79 @@
+{
+    "cards": [
+      {
+        
+        "id": "1",
+        "image": "assets/diferenciais1.png",
+        "title": "Equipe Qualificada",
+        "text": "Profissionais altamente capacitados e motivados a ajudá-lo a alcançar seus objetivos.",
+        "button": {
+          "text": "conheça nossos profissionais",
+          "link": "/"
+        },
+        "alt": "Ícone itens de esporte."
+      },
+      {
+        
+        "id": "2",
+        "image": "assets/diferenciais2.png",
+        "title": "Ambiente motivador",
+        "text": "Um ambiente seguro e inspirador para ajudá-lo a manter-se motivado durante seus treinos.",
+        "button": {
+          "text": "Faça um tour virtual",
+          "link": "/"
+        },
+        "alt": "Ícone mão segurando um peso."
+      },
+      {
+        "id": "3",
+        "image": "assets/diferenciais3.png",
+        "title": "Aulas Diversas",
+        "text": "Oferecemos uma ampla variedade de aulas, desde musculação até dança, para atender a todos os interesses.",
+        "button": {
+          "text": "Ver modalidades",
+          "link": "/"
+        },
+        "alt": "Ícone homem musculoso."
+      },
+      {
+        "id": "4",
+        "image": "assets/diferenciais4.png",
+        "title": "Equipamentos Modernos",
+        "text": "Mantemos nossos equipamentos atualizados para garantir a segurança e eficiência de nossos clientes.",
+        "button": {
+          "text": "faça um tour virtual",
+          "link": "/"
+        },
+        "alt": "Ícone equipamento de academia."
+      }
+    ],
+    "plans": [
+      {
+        "id": "5",
+        "image": "assets/plano1.png",
+        "title": "passe de 1 dia",
+        "text": "Teste gratuitamente",
+        "draft": "",
+        "alt": "Imagem homem levantando peso."
+      },
+      {
+        "id": "6",
+        "image": "assets/plano2.png",
+        "title": "passe de 1 MÊS",
+        "text": "À partir de",
+        "price": "R$99,90",
+        "draft": "RECOMENDADO POR USUÁRIOS",
+        "alt": "Imagem homem com luva de boxe."
+      },
+      {
+        "id": "7",
+        "image": "assets/plano3.png",
+        "title": "passe de 1 ANO",
+        "text": "À partir de",
+        "price": "R$999,90",
+        "draft": "",
+        "alt": "Imagem homme fazendo crossfit."
+      }
+    ]
+  }
+  

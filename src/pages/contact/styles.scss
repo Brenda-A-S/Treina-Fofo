@@ -1,0 +1,147 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+
+.contact {
+    min-height: $section-dark;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: $bg-dark;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 $s80;
+    gap: $s40;
+    position: relative;
+
+    h2 {
+        font-size: $s80;
+        line-height: $s90;
+    }
+
+    a {
+        @include polygon;
+        @include hover-black;
+        align-self: flex-start;
+        font-size: $s18;
+        font-weight: 700;
+        background-color: $contrast;
+        padding: $s12 $s24;
+    }
+
+    .form {
+        display: flex;
+        flex-flow: row wrap;
+        gap: $s32;
+    }
+
+    .polygon {
+        @include polygon;
+        position: relative;
+        height: 4.2rem;
+        font-size: $s18;
+        font-family: 'Montserrat', sans-serif;
+        background: $primary;
+        z-index: 10;
+        display: flex;
+        justify-content: flex-start;
+        border: 1px solid $primary;
+
+        &::before {
+            @include polygon;
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: $bg-dark;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        &:has(input:focus) {
+            border-color: $contrast;
+            background: $contrast;
+
+            input {
+                outline: none;
+
+                &::placeholder {
+                    color: $contrast;
+                }
+            }
+        }
+
+    }
+
+    .input {
+        background-color: transparent;
+        border: none;
+        padding: $s8;
+        color: $primary;
+        font-size: $s18;
+        text-transform: uppercase;
+
+        &::placeholder {
+            color: $primary;
+        }
+    }
+
+    p {
+        font-size: $s24;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        gap: $s32;
+        max-width: 50vw;
+    }
+
+    .right {
+        position: relative;
+        width: 28rem;
+        height: $section-dark;
+
+        img {
+            position: absolute;
+            bottom: 0;
+            right: $s16;
+            width: 40rem;
+        }
+    }
+
+    @media(max-width: 959px) {
+        padding: $s80;
+        padding-bottom: 0;
+        
+        h2 {
+            font-size: $s60;
+            line-height: $s80;
+        }
+        
+        .left {
+            max-width: 80vw;
+        }
+        
+        .right {
+            display: flex;
+            justify-content: center;
+
+            img {
+                position: static;
+                width: 100%;
+            }
+        }
+    }
+    
+    @media(max-width: 700px) {
+        padding: $s80 $s16;
+    }
+
+    @media (max-width: 425px) {
+        padding: $s80 $s16;
+        .right {
+            display: none;
+        }
+    }
+}

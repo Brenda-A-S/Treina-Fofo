@@ -1,0 +1,24 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+
+.section-dark {
+    width: 100%;
+    min-height: $section-dark;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: $s60;
+    background-color: $bg-dark;    
+    padding: $s80 0;
+
+    .card-list {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: $s24;
+    }    
+}

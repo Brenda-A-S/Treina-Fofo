@@ -1,0 +1,50 @@
+@import './variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: $primary;
+    font-weight: 400; 
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    behavior: smooth;
+    background-color: $bg-red;
+    position: relative; 
+}
+
+header {
+    position: relative;
+    padding: $s16 $s80; 
+
+    @media(max-width: 720px) {
+        padding: $s16;
+    }
+    &::after {
+        content: url('../assets//fundo1.svg');
+        position: absolute;
+        top: -10px;
+        right: 0;
+        z-index: -1;
+    }
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Bungee Outline', cursive;
+}
+
+h1, h3 {
+    font-family: 'Bebas Neue', sans-serif;
+}

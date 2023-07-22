@@ -1,0 +1,36 @@
+@import '../../../styles/variables.scss';
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-70%);
+    }
+}
+
+.marquee {
+    background-color: $bg-dark;
+    width: 100%;
+    height: $s56;
+    overflow: hidden;
+    display: flex;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: $s32;
+        animation: marquee 60s infinite linear;
+               
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: $s32;
+            white-space: nowrap;
+        }
+    }
+}

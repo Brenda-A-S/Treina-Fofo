@@ -1,0 +1,25 @@
+@import '../../styles/variables.scss';
+
+.section {
+    width: 100%;
+    min-height: $section;
+    padding: 0 $s80;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: $s90;
+    margin-bottom: $s32;
+
+    .card-list {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }       
+
+    @media(max-width: 720px) {
+        padding: 0 $s16;
+    }
+}

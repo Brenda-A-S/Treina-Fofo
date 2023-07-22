@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+
+.title {
+    font-size: $s80;
+    font-family: 'Bebas Neue', sans-serif;
+    span {
+        font-family: 'Bungee Outline', cursive;
+    }
+    @media(max-width: 720px) {
+        padding: 0 $s16;
+        font-size: $s60;
+    }
+}

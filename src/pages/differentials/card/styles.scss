@@ -1,0 +1,34 @@
+@import '../../../styles/variables.scss';
+
+.card {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: $s12;
+    padding: $s24;
+    transition: .3s;
+    max-width: 32rem;
+    
+    &:hover{
+        background-color: $bg-dark;
+        a {
+            background-color: $contrast;
+        }
+    }
+    
+    a {
+        font-size: $s18;
+        line-height: $s18;
+        align-self: flex-start;
+    }
+    
+    h2 {
+        font-size: $s28;
+        line-height: $s32;
+    }
+    
+    p{
+        font-size: $s16;
+        white-space: break-spaces;
+    }
+
+}

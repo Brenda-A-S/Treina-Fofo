@@ -1,0 +1,27 @@
+@mixin polygon {
+    clip-path: polygon(80% 0%, 100% 40%, 100% 100%, 0 100%, 0 0);
+    text-transform: uppercase;
+}
+
+@mixin default-polygon {
+    padding: $s8 $s24;
+}
+
+@mixin hover-red {
+    &:hover {
+        background-color: $contrast;
+    }
+}
+
+@mixin hover-black {
+    
+    &:hover {
+        background-color: $bg-black;
+    }
+}
+
+@mixin button {
+    background-color: $bg-dark;
+    font-family: 'Bebas Neue', sans-serif;
+    transition: .3s;
+}

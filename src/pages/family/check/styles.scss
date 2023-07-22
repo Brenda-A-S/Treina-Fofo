@@ -1,0 +1,31 @@
+@import '../../../styles/variables.scss';
+
+.check {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: $s12;
+    transition: .3s; 
+    width: 20rem;
+
+    h2 {
+        font-size: $s60;
+        line-height: $s60;
+    }
+    
+    p {
+        font-size: $s16;
+        line-height: $s16;
+    }
+
+    @media(max-width: 900px) {
+        width: 15rem;
+        h2 {
+            font-size: $s40;
+            line-height: $s40;
+        }
+    }
+
+
+}

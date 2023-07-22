@@ -1,0 +1,18 @@
+@import '../../styles/variables.scss';
+
+.footer { 
+    padding: $s80;
+
+    img{
+        margin-bottom: $s24;
+    }
+    
+    p {
+        font-size: $s12;
+        margin-top: $s8;
+        a {
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+    }
+}

@@ -1,0 +1,85 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+
+.family {
+    min-height: $banner;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 $s80;
+    padding-top: $s16;
+    position: relative;
+    background: url('../../assets/fundo2.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom left;
+    gap: $s40;
+    position: relative;
+    
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        &.left{
+            align-self: flex-end;
+        }
+        &.right{
+            align-items: flex-start;
+        }
+        &.check-flex {
+            flex-flow: row wrap;
+            gap: $s40;
+        }
+        @media(max-width: 570px) {
+            .check-flex{
+                justify-content: center;
+                gap: $s12;
+            }
+        }
+    }
+
+    h1 {
+        font-size: $s90;
+    }
+
+    h2 {
+        font-size: $s80;
+        line-height: $s90;
+    }
+
+    a {
+        align-self: flex-start;
+        font-size: $s32;
+    }
+
+    p {
+        max-width: 68.9rem;
+        font-size: $s16;
+        margin-bottom: $s36;
+    }
+
+    .left img {
+        width: 100%;
+        min-width: 28rem;
+    }
+
+    @media(max-width: 900px) {
+        padding: $s80;
+        padding-bottom: 0;
+
+        flex-wrap: wrap-reverse;
+
+        h2 {
+            font-size: $s60;
+            line-height: $s80;
+        }        
+    }
+    @media(max-width: 720px) {
+        padding: $s80 $s16;
+        padding-bottom: 0;
+        background-size: cover;
+    }    
+}
