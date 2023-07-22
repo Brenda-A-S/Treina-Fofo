@@ -24,7 +24,7 @@ function Contact() {
       </div>
 
       <div className='right'>
-        <img src={Image} alt='Imagem Homem e Mulher de academia.' />
+        <img src={Image} alt='Imagem Mulher de academia.' />
       </div>
     </section>
   </>

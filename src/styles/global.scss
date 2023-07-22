@@ -48,3 +48,15 @@ h2 {
 h1, h3 {
     font-family: 'Bebas Neue', sans-serif;
 }
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    border: 3px solid $bg-red;
+    background-color: $bg-gray;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: $bg-red;
+  }

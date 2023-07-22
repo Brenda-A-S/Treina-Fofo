@@ -18,6 +18,9 @@ nav {
             font-size: $s24;
             line-height: $s28;
             text-transform: uppercase;
+            &:hover {
+                opacity: .8;
+            }
         }
         
         li:nth-last-child(1) a {
