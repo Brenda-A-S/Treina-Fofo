@@ -6,7 +6,7 @@ import Title from '../../components/title'
 import Check from './check'
 
 function Family() {
-  return (<>
+  return (
     <section className='family'>
       <div className='left'>
         <img src={Image} alt='Imagem Homem e Mulher de academia.' />
@@ -24,7 +24,6 @@ function Family() {
         </div>
       </div>
     </section>
-  </>
   )
 }
 

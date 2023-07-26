@@ -5,7 +5,8 @@ import Image from '../../assets/mulher1.png'
 import Title from '../../components/title'
 
 function Contact() {
-  return (<>
+  return (
+  <div className='dark'>
     <section className='contact'>
       <div className='left'>
         <Title text='Entre em contato' />
@@ -27,7 +28,7 @@ function Contact() {
         <img src={Image} alt='Imagem Mulher de academia.' />
       </div>
     </section>
-  </>
+  </div>
   )
 }
 

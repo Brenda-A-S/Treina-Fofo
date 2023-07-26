@@ -5,9 +5,15 @@
     font-family: 'Bebas Neue', sans-serif;
     span {
         font-family: 'Bungee Outline', cursive;
+        font-size: $s60;
+        line-height: $s60;
     }
-    @media(max-width: 720px) {
+    @media(max-width: 750px) {
         padding: 0 $s16;
         font-size: $s60;
+        span {
+            font-size: $s40;
+            line-height: $s60;
+        }
     }
 }

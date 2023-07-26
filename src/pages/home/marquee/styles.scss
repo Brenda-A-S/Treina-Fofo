@@ -11,10 +11,10 @@
 
 .marquee {
     background-color: $bg-dark;
-    width: 100%;
     height: $s56;
     overflow: hidden;
     display: flex;
+    z-index: 10;
 
     ul {
         display: flex;

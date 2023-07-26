@@ -1,9 +1,9 @@
 @import '../../styles/variables.scss';
 @import '../../styles/mixins.scss';
 
-
 .contact {
-    min-height: $section-dark;
+    @include max-width;
+    min-height: 100px;
     display: flex;
     flex-flow: row wrap;
     background-color: $bg-dark;
@@ -12,6 +12,8 @@
     padding: 0 $s80;
     gap: $s40;
     position: relative;
+
+    transition: .2s;
 
     h2 {
         font-size: $s80;
@@ -93,7 +95,7 @@
     .left {
         display: flex;
         flex-direction: column;
-        gap: $s32;
+        gap: $s28;
         max-width: 50vw;
     }
 
@@ -112,24 +114,21 @@
 
     @media(max-width: 959px) {
         padding: $s80;
-        padding-bottom: 0;
         
         h2 {
-            font-size: $s60;
-            line-height: $s80;
+            font-size: $s56;
+            line-height: $s60;
         }
         
         .left {
-            max-width: 80vw;
+            max-width: 100%;
         }
         
         .right {
-            display: flex;
-            justify-content: center;
+            display: none;
 
             img {
-                position: static;
-                width: 100%;
+                display: none;
             }
         }
     }

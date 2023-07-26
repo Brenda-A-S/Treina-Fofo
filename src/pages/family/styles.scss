@@ -1,58 +1,53 @@
 @import '../../styles/variables.scss';
 @import '../../styles/mixins.scss';
 
-
 .family {
+    @include max-width;
     min-height: $banner;
+
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    gap: $s40;
+
     padding: 0 $s80;
     padding-top: $s16;
-    position: relative;
+
     background: url('../../assets/fundo2.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom left;
-    gap: $s40;
+
     position: relative;
-    
+
+    transition: .2s;
+
     div {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
-        &.left{
+
+        &.left {
             align-self: flex-end;
         }
-        &.right{
+
+        &.right {
             align-items: flex-start;
         }
+
         &.check-flex {
             flex-flow: row wrap;
             gap: $s40;
         }
+
         @media(max-width: 570px) {
-            .check-flex{
+            .check-flex {
                 justify-content: center;
                 gap: $s12;
             }
         }
-    }
-
-    h1 {
-        font-size: $s90;
-    }
-
-    h2 {
-        font-size: $s80;
-        line-height: $s90;
-    }
-
-    a {
-        align-self: flex-start;
-        font-size: $s32;
     }
 
     p {
@@ -63,23 +58,25 @@
 
     .left img {
         width: 100%;
-        min-width: 28rem;
+        min-width: 30rem;
     }
 
-    @media(max-width: 900px) {
+    @media(max-width: 940px) {
         padding: $s80;
         padding-bottom: 0;
+        flex-direction: column-reverse;
 
-        flex-wrap: wrap-reverse;
-
-        h2 {
-            font-size: $s60;
-            line-height: $s80;
-        }        
     }
+
     @media(max-width: 720px) {
         padding: $s80 $s16;
         padding-bottom: 0;
-        background-size: cover;
-    }    
+        background-size: cover;        
+    }
+
+    @media(max-width: 526px) {
+        h2 span {
+            display: block;
+        }
+    }
 }

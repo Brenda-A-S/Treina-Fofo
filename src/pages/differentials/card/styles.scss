@@ -3,6 +3,7 @@
 .card {
     display: flex;
     flex-flow: column nowrap;
+    justify-content: space-between;
     gap: $s12;
     padding: $s24;
     transition: .3s;
@@ -16,6 +17,7 @@
     }
     
     a {
+        height: $s60;
         font-size: $s18;
         line-height: $s18;
         align-self: flex-start;

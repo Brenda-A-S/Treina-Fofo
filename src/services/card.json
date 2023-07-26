@@ -1,7 +1,6 @@
 {
     "cards": [
-      {
-        
+      {        
         "id": "1",
         "image": "assets/diferenciais1.png",
         "title": "Equipe Qualificada",
@@ -12,8 +11,7 @@
         },
         "alt": "Ícone itens de esporte."
       },
-      {
-        
+      {        
         "id": "2",
         "image": "assets/diferenciais2.png",
         "title": "Ambiente motivador",

@@ -2,17 +2,25 @@
 @import '../../styles/mixins.scss';
 
 nav {
+    @include max-width;
     width: 100%;
     height: $s60;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+    transition: .2s;
+
+    img {
+        z-index: 1;
+    }
+
     ul {
         display: flex;
         gap: $s32;   
         
         li a {
+            white-space: nowrap;
             font-family: 'Bebas Neue', sans-serif;
             padding: $s8 $s16;
             font-size: $s24;

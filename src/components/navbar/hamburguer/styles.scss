@@ -52,7 +52,12 @@
             background-color: $bg-black;
             padding: $s32;
             z-index: 1;
+            
             transition: .2s;
+
+            li:nth-last-child(1) a {
+                background-color: $contrast;
+            }
         
             div {
                 align-self: flex-end;

@@ -13,8 +13,7 @@
     }
 }
 
-@mixin hover-black {
-    
+@mixin hover-black {    
     &:hover {
         background-color: $bg-black;
     }
@@ -24,4 +23,10 @@
     background-color: $bg-dark;
     font-family: 'Bebas Neue', sans-serif;
     transition: .3s;
+}
+
+@mixin max-width {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
 }

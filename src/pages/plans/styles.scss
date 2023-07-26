@@ -1,6 +1,4 @@
 @import '../../styles/variables.scss';
-@import '../../styles/mixins.scss';
-
 
 .section-dark {
     width: 100%;
@@ -12,6 +10,8 @@
     gap: $s60;
     background-color: $bg-dark;    
     padding: $s80 0;
+
+    transition: .2s;
 
     .card-list {
         width: 100%;

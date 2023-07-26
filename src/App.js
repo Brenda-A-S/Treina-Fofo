@@ -8,21 +8,23 @@ import Plans from "./pages/plans";
 
 function App() {
   return (
-    <>
-     <header>
-      <Menu/>
-     </header>
-     <main>
-      <Banner />
-      <Differentials/>
-      <Plans />
-      <Family />
-      <Contact />
-     </main>
-     <footer>
-      <Footer/>
-     </footer>
-    </>
+    <div className="app">
+      <div className="container">
+        <header>
+          <Menu />
+        </header>
+        <main>
+          <Banner />
+          <Differentials />
+          <Plans />
+          <Family />
+          <Contact />
+        </main>
+        <footer>
+          <Footer />
+        </footer>
+      </div>
+    </div>
   );
 }
 

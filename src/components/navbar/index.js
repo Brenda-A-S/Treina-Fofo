@@ -13,7 +13,7 @@ function Menu() {
   }
 
   return (
-    <nav >
+    <nav>
       <a href='/'>
         <img src={Logo} alt='Logo da empresa Robust Habit' />
       </a>
