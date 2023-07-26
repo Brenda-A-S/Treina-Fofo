@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Treina-Fofo/static/css/main.8de124f0.css",
-    "main.js": "/Treina-Fofo/static/js/main.ee7255ea.js",
+    "main.css": "/Treina-Fofo/static/css/main.5ec05353.css",
+    "main.js": "/Treina-Fofo/static/js/main.adf00fcc.js",
     "static/media/homem1.png": "/Treina-Fofo/static/media/homem1.8b5474ab6bcc4760e4e8.png",
     "static/media/homememulher1.png": "/Treina-Fofo/static/media/homememulher1.9f49e29b659ab8ca2c4e.png",
     "static/media/mulher1.png": "/Treina-Fofo/static/media/mulher1.0aecb8fa45f3e3145935.png",
     "static/media/fundo1.svg": "/Treina-Fofo/static/media/fundo1.f86ba220c0ec12182115.svg",
     "index.html": "/Treina-Fofo/index.html",
     "static/media/fundo2.svg": "/Treina-Fofo/static/media/fundo2.2d7636fb4d939ee3e1be.svg",
-    "main.8de124f0.css.map": "/Treina-Fofo/static/css/main.8de124f0.css.map",
-    "main.ee7255ea.js.map": "/Treina-Fofo/static/js/main.ee7255ea.js.map"
+    "main.5ec05353.css.map": "/Treina-Fofo/static/css/main.5ec05353.css.map",
+    "main.adf00fcc.js.map": "/Treina-Fofo/static/js/main.adf00fcc.js.map"
   },
   "entrypoints": [
-    "static/css/main.8de124f0.css",
-    "static/js/main.ee7255ea.js"
+    "static/css/main.5ec05353.css",
+    "static/js/main.adf00fcc.js"
   ]
 }
