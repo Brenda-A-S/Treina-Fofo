@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Treina-Fofo/static/css/main.dbe1c271.css",
+    "main.css": "/Treina-Fofo/static/css/main.49a8d98b.css",
     "main.js": "/Treina-Fofo/static/js/main.adf00fcc.js",
     "static/media/homem1.png": "/Treina-Fofo/static/media/homem1.8b5474ab6bcc4760e4e8.png",
     "static/media/homememulher1.png": "/Treina-Fofo/static/media/homememulher1.9f49e29b659ab8ca2c4e.png",
@@ -8,11 +8,11 @@
     "static/media/fundo1.svg": "/Treina-Fofo/static/media/fundo1.f86ba220c0ec12182115.svg",
     "index.html": "/Treina-Fofo/index.html",
     "static/media/fundo2.svg": "/Treina-Fofo/static/media/fundo2.2d7636fb4d939ee3e1be.svg",
-    "main.dbe1c271.css.map": "/Treina-Fofo/static/css/main.dbe1c271.css.map",
+    "main.49a8d98b.css.map": "/Treina-Fofo/static/css/main.49a8d98b.css.map",
     "main.adf00fcc.js.map": "/Treina-Fofo/static/js/main.adf00fcc.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbe1c271.css",
+    "static/css/main.49a8d98b.css",
     "static/js/main.adf00fcc.js"
   ]
 }
