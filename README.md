@@ -13,11 +13,6 @@ https://github.com/Brenda-A-S/Treina-Fofo/assets/69852246/6e235f23-fda4-48d6-89d
 
 https://github.com/Brenda-A-S/Treina-Fofo/assets/69852246/aab56fcb-b67b-44d9-87d0-6d23a4c8b42d
 
-# Protótipo  :art:
-
-Acesse o protótipo diretamente no [Figma](https://www.figma.com/file/xk6lmEB3Yrs5e0y8eEN7ka/academia?type=design&node-id=0%3A1&mode=design&t=gxOA57a4UiLry6sz-1).
-
-
 ## Conecte-se comigo :link:
 
 * Me siga no [Instagram](https://www.instagram.com/brenda_a_s_dev/)

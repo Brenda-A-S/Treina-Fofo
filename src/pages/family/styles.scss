@@ -61,6 +61,11 @@
         min-width: 30rem;
     }
 
+    @media(min-width: 1440px) {
+        background: none;
+
+    }
+
     @media(max-width: 940px) {
         padding: $s80;
         padding-bottom: 0;

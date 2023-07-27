@@ -16,15 +16,18 @@
     
     p {
         font-size: $s16;
-        line-height: $s16;
-    }
-
-    @media(max-width: 900px) {
-        width: 15rem;
+        line-height: $s16;    }
+    
+    @media(max-width: 990px) {
+        width: 10rem;
         h2 {
             font-size: $s40;
             line-height: $s40;
         }
+    }
+
+    @media(max-width: 940px) {
+        width: 15rem;
     }
 
 

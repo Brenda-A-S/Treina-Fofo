@@ -1,8 +1,9 @@
 @import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
 
 .footer { 
+    @include max-width;
     padding: $s80;
-
     img{
         margin-bottom: $s24;
     }
