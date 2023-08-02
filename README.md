@@ -1,6 +1,6 @@
 # Projeto Treina Fofo :muscle:
 
-Projeto criado com React, HTML5, JavaScript e SASS para aprimorar os conhecimentos nessas tecnologias. 
+Projeto criado com React, HTML5, JavaScript e SCSS para aprimorar os conhecimentos nessas tecnologias. 
 O desafio foi recriar o design concebido pelo [Futuro Dev - John](https://www.youtube.com/@futuroDevJohn), buscando aprimorar minhas habilidades e explorar novas possibilidades criativas. 
 Durante o desenvolvimento, foquei em implementar o design o mais fiel possível e acrescentar responsividade para garantir uma experiência de usuário fluida. 
 O projeto foi uma oportunidade para expandir meus horizontes e fortalecer meu domínio dessas tecnologias essenciais no desenvolvimento front end.
