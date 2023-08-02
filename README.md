@@ -5,6 +5,8 @@ O desafio foi recriar o design concebido pelo [Futuro Dev - John](https://www.yo
 Durante o desenvolvimento, foquei em implementar o design o mais fiel possível e acrescentar responsividade para garantir uma experiência de usuário fluida. 
 O projeto foi uma oportunidade para expandir meus horizontes e fortalecer meu domínio dessas tecnologias essenciais no desenvolvimento front end.
 
+![1](https://github.com/Brenda-A-S/Treina-Fofo/assets/69852246/4b115a18-bae8-4840-b694-0fa796e12884)
+
 # Resultado :pushpin:
 
 https://github.com/Brenda-A-S/Treina-Fofo/assets/69852246/58f5f70c-51f3-44c1-84d3-f1e2d4203677
